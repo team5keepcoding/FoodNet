@@ -1,0 +1,32 @@
+<!-- index.html -->
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clasificador de Imágenes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3 class="mt-3"><a href="https://github.com/duplxey/django-images">Clasificador de imágenes de comidas</a></h3>
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Subir Imagen</h5>
+                        <p class="card-text">Rellena el formulario y presiona upload para subir una nueva imagen.</p>
+                        <form action="{% url "images-upload" %}" enctype="multipart/form-data" method="post">
+                            {% csrf_token %}
+                            {{ upload_form|crispy }}
+                            <input type="submit" class="btn btn-primary w-100" value="Upload">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
