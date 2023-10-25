@@ -1,0 +1,3 @@
+-Poner de activador : google.cloud.storage.object.v1.finalized
+-Seleccionar Bucket donde se han de subir las fotos
+-Asignar 512 mb mínimo de memoria.
