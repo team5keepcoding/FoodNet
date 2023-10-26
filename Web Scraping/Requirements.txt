@@ -2,3 +2,4 @@ geopy
 pandas
 selenium
 beautifulsoup4
+matplotlib
