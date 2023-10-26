@@ -2,11 +2,13 @@ import psycopg2
 
 #Consultas de pruebas BBDD
 
-user = 'postgres'
-password = 'team5'
-host = '34.78.34.185'
-port = '5432'
-database = 'sysapp'
+# #Check CredentialsBBDD.txt para credenciales
+
+# user = <user>
+# password = <password>
+# host = <host>
+# port = <port>
+# database = <database>
 
 
 ######################## Conexion######################################
