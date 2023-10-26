@@ -1,6 +1,7 @@
 # Food Image Recognition and Nutritional Value Estimation
 
-![Probar la app web!](https://webdjango-400208.ew.r.appspot.com/)
+- Probar la app web!
+(https://webdjango-400208.ew.r.appspot.com/)
 
 ## Descripción del Proyecto
 
