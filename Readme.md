@@ -1,10 +1,10 @@
 # Food Image Recognition and Nutritional Value Estimation
 
-![Example Image](img/example.jpg)
+![Probar la app web!](https://webdjango-400208.ew.r.appspot.com/)
 
 ## Descripción del Proyecto
 
-Este proyecto utiliza técnicas de Deep Learning para reconocer y clasificar imágenes de platos de comida. Una vez que se ha identificado el plato de comida en la imagen, el sistema estima los valores nutricionales del plato, incluyendo calorías, proteínas, grasas y carbohidratos.
+Este proyecto utiliza técnicas de Deep Learning para reconocer y clasificar imágenes de platos de comida. Una vez que se ha identificado el plato de comida en la imagen, el sistema estima los valores nutricionales del plato, incluyendo calorías, proteínas, grasas y carbohidratos. Además lista los restaurantes asiciados a Glovo y JusEat que tienen estos platos disponibles en su carta.
 
 ## Funcionalidades Principales
 
@@ -14,32 +14,32 @@ Este proyecto utiliza técnicas de Deep Learning para reconocer y clasificar im�
 
 - **Estimación de Valores Nutricionales:** Utiliza los datos de la imagen para estimar los valores nutricionales del plato, basándose en una base de datos nutricional.
 
-- **Explora los restaurantes para tu plato:** Puedes visualizar que restaurantes en Madrid podrían tener el alimento que estás buscando.
+- **Listado de restaurantes:** Detecta los restaurantes de Madrid asociados a Glovo y JustEat donde se sirven esos platos, jusnto con una descripción del plato.
 
 - **Interfaz de Usuario Amigable:** Proporciona una interfaz de usuario intuitiva para cargar imágenes y obtener información nutricional.
 
+
+
 ## Instalación
 
-1. Clona este repositorio:
+1. Accecer a la aplicación web mediante este enlace:
 
-git clone https://github.com/MiguelyGallego/FoodNet.git
-cd FoodNet.git
+https://webdjango-400208.ew.r.appspot.com/
+
+2. Poner un títo de la imagen para que quede registrada
+
+3. Cargar una foto o de la galaeria o hacelarmediante la camara
+
+4. Presionar upload
 
 ## Autores
 
 - [Miguel Ángel Gallego](https://github.com/MiguelyGallego)
-- [Antonio Rivera](https://github.com/colaborador)
-- [Pedro Dominguez](https://github.com/colaborador)
-- [Bartolomé Flores](https://github.com/colaborador)
+- [Antonio Rivera](https://github.com/Antonio-blip)
+- [Pedro Dominguez](https://github.com/pedrodd2)
+- [Bartolomé Flores](https://github.com/floresvicariabartolome)
 
 ## Agradecimientos
 
-- Agradecemos a [Sai Nikhilesh Reddy] y [HARISH KUMARdatalab] en Kaggle por proporcionar los datos nutricionales utilizados en este proyecto.
-
----
-
-**Nota:** Este es solo un README preliminar para el proyecto de reconocimiento de imágenes de platos de comida y estimación de valores nutricionales. También es importante incluir información detallada sobre la arquitectura del modelo, los datos utilizados, los requisitos de hardware, y cualquier otra información técnica relevante. Además, hay que proporcionar ejemplos de imágenes de muestra o enlaces a conjuntos de datos utilizados para entrenar y probar el modelo.
-
-
-
-
+- Agradecemos a KeepCoding por la formación fundamental y la asistencia durante el desarrollo de este proyecto.
+- Agradecemos a [HARISH KUMARdatalab] en Kaggle por proporcionar los datos de las imágenes en este proyecto y a EDAMAm por los datos nutricionales.
