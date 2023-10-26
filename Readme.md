@@ -14,6 +14,8 @@ Este proyecto utiliza técnicas de Deep Learning para reconocer y clasificar im�
 
 - **Estimación de Valores Nutricionales:** Utiliza los datos de la imagen para estimar los valores nutricionales del plato, basándose en una base de datos nutricional.
 
+- **Explora los restaurantes para tu plato** Puedes visualizar que restaurantes en Madrid podrían tener el alimento que estás buscando.
+
 - **Interfaz de Usuario Amigable:** Proporciona una interfaz de usuario intuitiva para cargar imágenes y obtener información nutricional.
 
 ## Instalación
